@@ -24,7 +24,7 @@ exports.createPaste = async (req, res) => {
 
     return res.status(201).json({
       id: paste._id.toString(),
-      url: `${process.env.BASE_URL}/p/${paste._id}`,
+      url: `${process.env.BASE_URL}/#/p/${paste._id}`,
     });
   } catch (err) {
     console.error(err);

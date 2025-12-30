@@ -5,8 +5,8 @@ const {
   getPasteHtml,
 } = require("../controllers/paste.controller");
 
-router.post("/pastes", createPaste);
-router.get("/pastes/:id", getPasteApi);
+router.post("/api/pastes", createPaste);
+router.get("/api/pastes/:id", getPasteApi);
 router.get("/p/:id", getPasteHtml);
 
 module.exports = router;

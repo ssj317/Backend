@@ -20,8 +20,11 @@ npm run dev
 ## Create a .env file in the backend root:
 
 MONGO_URI=use your local mongo string to run it locally
+
 BASE_URL=http://localhost:3000
+
 PORT=3000
+
 TEST_MODE=1
 
 
